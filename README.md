@@ -18,10 +18,12 @@ Retrieved store data through an API, cleaned it, and uploaded the dataframe to t
 Extracted product information from CSV files in an S3 bucket, cleaned the data frame, and uploaded it to the database.
 Extracted and cleaned the orders table stored in an AWS RDS database, then uploaded the dataframe to the database.
 Extracted details of each sale from a JSON file stored on S3, cleaned the data, and uploaded it to the database.
+
 Milestone 3: Create the database schema
 Ensured that all tables within the sales_database had correct columns and were cast of the correct type.
 Added primary keys to all dimension tables, then created foreign keys in the orders_table to reference the primary keys in other tables.
 Used SQL to create foreign key constraints, completing the star-based database schema.
+
 Milestone 4: Querying the Data
 Used SQL to get up-to-date metrics from the data, answering the following questions:
 How many stores does the business have and in which countries?
